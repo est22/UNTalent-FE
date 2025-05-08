@@ -1,0 +1,25 @@
+{ "United Nations": {
+        "UNDP": { "names": ["United Nations Development Programme"] },
+        "UNICEF": { "names": ["United Nations Children's Fund"] },
+        "WFP": { "names": ["World Food Programme"] },
+        "FAO": { "names": ["Food and Agriculture Organization"] },
+        "WHO": { "names": ["World Health Organization"] },
+        "UNESCO": { "names": ["United Nations Educational, Scientific and Cultural Organization"] },
+        "UNFPA": { "names": ["United Nations Population Fund"] },
+        "UN-Habitat": { "names": ["United Nations Human Settlements Programme"] },
+        "UNEP": { "names": ["United Nations Environment Programme"] },
+        "UNIDO": { "names": ["United Nations Industrial Development Organization"] },
+        "ILO": { "names": ["International Labour Organization"] },
+        "ICAO": { "names": ["International Civil Aviation Organization"] },
+        "IMF": { "names": ["International Monetary Fund"] },
+        "WBG": { "names": ["World Bank Group"] },
+        "WIPO": { "names": ["World Intellectual Property Organization"] },
+        "WMO": { "names": ["World Meteorological Organization"] },
+        "IMO": { "names": ["International Maritime Organization"] },
+        "WTO": { "names": ["World Trade Organization"] },
+        "IFAD": { "names": ["International Fund for Agricultural Development"] },
+        "UNHCR": { "names": ["United Nations Refugee Agency"] },
+        "UNODC": { "names": ["United Nations Office on Drugs and Crime"] },
+        "UN Women": { "names": ["United Nations Women"] }
+        }
+}

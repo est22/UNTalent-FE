@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .MuiInputLabel-root {
+    background-color: transparent !important;
+    color: white !important;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+  }
+
+  .MuiSvgIcon-root.MuiSelect-icon {
+    color: white !important;
+  }
+
+  .MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input,
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    color: white !important;
+  }
+}

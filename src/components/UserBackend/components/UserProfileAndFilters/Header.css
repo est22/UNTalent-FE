@@ -1,0 +1,33 @@
+.main-heading {
+  font-size: 1.8em;
+  color: #333;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-profile {
+  width: 111px;
+  height: 111px;
+  position: relative;
+  margin-left: 20px;
+  flex: none;
+}
+
+@media (max-width: 768px) {
+  .header-profile {
+    width: 72px !important;
+    height: 72px !important;
+  }
+}

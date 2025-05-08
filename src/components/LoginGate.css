@@ -1,0 +1,104 @@
+.login-gate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../../public/hero.png');
+  background-color: #f0f2f5; /* Added a fallback background color */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Gradient overlay like the main page */
+.login-gate-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom,
+              rgba(35, 36, 56, 0) 0%,
+              rgba(35, 36, 56, 0.3) 30%,
+              rgba(35, 36, 56, 0.7) 60%,
+              rgba(35, 36, 56, 1) 100%);
+  z-index: 1;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  position: relative; /* Ensure it's above the overlay */
+  z-index: 2;
+}
+
+/* Style for the added logo */
+.login-logo {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error-message {
+  color: #dc3545; /* Red for errors */
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.disclaimer {
+    margin-top: 25px;
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.4;
+} 

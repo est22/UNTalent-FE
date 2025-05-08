@@ -1,0 +1,110 @@
+/* Style for the whole sidebar container */
+.sidebar {
+  flex: 0 0 auto;
+  width: 280px; /* Updated width */
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #fff;
+  padding: 5px; /* Set padding to 0 */
+  font-weight: 400;
+  color: rgb(60, 64, 67);
+  z-index: 1;
+  border-radius: 12px;
+}
+
+/* Style for the elements inside the sidebar */
+.sidebar-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px 10px 24px; /* Updated padding */
+  font-size: 1.05rem; /* Increased font size */
+  font-weight: normal; /* Set to normal */
+  cursor: pointer;
+  line-height: 1.25rem;
+  letter-spacing: 0.0142857143em;
+  border-bottom: none;
+}
+
+.sidebar-list li.selected {
+  background-color: #cfe0f8;
+  font-weight: 500;
+  padding-left: 0; /* Start from the beginning of the sidebar */
+  border-radius: 50px; /* Very rounded edges on the right */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  color: #1a73e8;
+}
+
+/* Style for the FontAwesome icon */
+.sidebar-list li .svg-inline--fa {
+  margin-right: 20px;
+  font-size: 24px; /* Increased icon size */
+  color: #606060;
+}
+
+/* For selected state, adjust the icon's left margin */
+.sidebar-list li.selected .svg-inline--fa {
+  margin-left: 24px; /* Maintain the original alignment */
+}
+
+/* Selected item icon and text color */
+.sidebar-list li.selected .svg-inline--fa,
+.sidebar-list li.selected .sidebar-text {
+  color: #1a73e8;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 70% !important;
+    max-width: none;
+    margin: 10px auto;
+    padding: 0;
+  }
+
+  .sidebar .sidebar-list {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .sidebar .sidebar-list li .sidebar-text {
+    display: none;
+  }
+
+  .sidebar .sidebar-list li {
+    padding: 15px 25px;
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar .sidebar-list li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 1px;
+    background-color: #e0e0e0;
+  }
+
+  .sidebar .sidebar-list li.selected {
+    padding: 15px 25px;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .sidebar .sidebar-list li .svg-inline--fa {
+    margin: 0;
+  }
+
+  .sidebar .sidebar-list li.selected .svg-inline--fa {
+    margin: 0;
+  }
+}

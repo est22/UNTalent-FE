@@ -1,0 +1,94 @@
+.account-management {
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.header h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.setting-box h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.setting-box p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.delete-button {
+  padding: 12px 24px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block; /* Adjust as necessary */
+  margin: 5px 0; /* Adds some spacing around buttons */
+}
+.delete-button:hover {
+  background-color: #b30000; /* Dark red background only for delete button hover */
+}
+
+/* Add any additional styles as needed */
+
+.cancel-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.email-edit-section input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.email-status-message {
+  margin-top: 10px;
+  color: red;
+}
+
+.verification-status {
+  margin-top: 4px;
+}
+
+.status-wrapper {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.status-wrapper.verified {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-wrapper.unverified {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.status-icon {
+  margin-right: 4px;
+  font-weight: bold;
+}
+
+.status-text {
+  font-weight: 500;
+}

@@ -1,0 +1,141 @@
+/* Container Styles */
+.container-padding {
+  padding: 16px;
+}
+
+.user-profile {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* Card Layout */
+.setting-box {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Section Layout */
+.backend-filter-with-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 24px;
+}
+
+.backend-filter-with-description:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* Description Styles */
+.backend-description {
+  width: 100%;
+}
+.backend-filter-item .unique-toggle-group {
+  border: none;
+}
+
+.backend-description h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  font-weight: bold;
+}
+
+.backend-description p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Filter Item Styles */
+.backend-filter-item {
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* Select Input Styles */
+.backend-filter-item .select__control {
+  min-height: 40px;
+  border-color: #ddd;
+}
+
+.backend-filter-item .select__control:hover {
+  border-color: #999;
+}
+
+/* Slider Styles */
+.backend-slider-wrapper {
+  max-width: 60%; /* Or your desired width */
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.backend-slider-labels {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* File Upload Styles */
+.backend-input-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  margin-top: 8px;
+}
+
+/* Header Styles */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e0e0e0;
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 769px) {
+  .backend-filter-with-description {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .backend-description {
+    width: 40%;
+  }
+
+  .backend-filter-item {
+    width: 60%;
+    margin-top: 0;
+  }
+}
+
+/* Loading States */
+.loading-overlay {
+  position: relative;
+  opacity: 0.7;
+}
+
+.disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}

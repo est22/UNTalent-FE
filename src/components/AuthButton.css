@@ -1,0 +1,112 @@
+/* AuthButton.css */
+.auth-button {
+  position: relative;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  z-index: 5;
+}
+
+.dropdown-content-active {
+  display: block;
+}
+
+.user-avatar-large {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.welcome-text {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.manage-account,
+.logout-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+}
+
+.manage-account:hover,
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer-links a {
+  font-size: 12px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  min-width: 120px;
+  text-align: center;
+  border: 2px solid #17a2b8;
+  background-color: transparent;
+  color: #17a2b8;
+}
+
+.login-button:hover {
+  background-color: #17a2b8;
+  color: white;
+  border-color: #138496;
+}
+
+@media screen and (max-width: 768px) {
+  .user-avatar {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+  }
+
+  .dropdown-content {
+    right: 10px;
+    top: 50px;
+  }
+}

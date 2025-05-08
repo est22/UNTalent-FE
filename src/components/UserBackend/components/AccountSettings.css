@@ -1,0 +1,77 @@
+/* AccountSettings CSS */
+
+.account-settings {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+  }
+  
+  .header h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .intro-text {
+    flex: 2;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .intro-image {
+    flex: 1;
+    max-width: 20%;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+  
+  .setting-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+  }
+  
+  .setting-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .setting-box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .save-button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  

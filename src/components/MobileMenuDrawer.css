@@ -1,0 +1,8 @@
+.menu-icon {
+    display: flex;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+}

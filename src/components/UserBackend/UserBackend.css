@@ -1,0 +1,83 @@
+/* Existing styles */
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.submit-section {
+  margin-top: 20px;
+}
+
+.user-backend-hero-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../../public/hero.png'); 
+  background-color: #ffffff; /* Added a fallback background color, can be adjusted */
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.user-backend-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  background-color: white;
+  margin-top: 80px;
+}
+
+.backend-main-content {
+  flex: 1;
+  padding: 20px;
+  text-align: left; /* Changed from center to left */
+}
+
+@media screen and (max-width: 968px) {
+  .user-backend-container {
+    margin-top: 0;
+  }
+}
+
+/* Mobile view CSS additions */
+@media screen and (max-width: 768px) {
+  .user-backend-container {
+    flex-direction: column; /* Stack components vertically on small screens */
+  }
+
+  .backend-main-content, .backend-sidebar {
+    width: 100%; /* Full width for better mobile compatibility */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  h2 {
+    font-size: 1.2em; /* Adjust heading size for smaller screens */
+  }
+
+  p, .submit-section, button {
+    margin-top: 10px; /* Adjust spacing for a tighter mobile layout */
+  }
+
+  button {
+    padding: 8px 15px; /* Slightly smaller buttons for mobile */
+  }
+}
+
+/* Additional adjustments for very small screens */
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1em; /* Even smaller font size for very small devices */
+  }
+
+  .backend-main-content, .backend-sidebar {
+    padding: 5px; /* Reduce padding even further for very small screens */
+  }
+}

@@ -1,0 +1,46 @@
+/* PaymentContent.css */
+.payment-content {
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.payment-content h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.payment-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: justify; /* Ensure text is evenly spaced */
+}
+
+.payment-content button {
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.payment-content button:hover {
+  background-color: #0056b3;
+}
+
+/* Add specific styles for loading/error messages if needed */
+.payment-content .loading,
+.payment-content .error {
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+

@@ -1,0 +1,70 @@
+.pricing-container {
+    text-align: center;
+    padding: 40px;
+    background: #fff; /* Assuming a white background */
+  }
+  
+  .pricing-header h1 {
+    font-size: 3em;
+  }
+  
+  .pricing-header p {
+    margin-bottom: 2em;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust gap between plans as needed */
+  }
+  
+  .plan {
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 10px;
+  }
+  
+  .plan-header {
+    margin-bottom: 30px;
+  }
+  
+  .price {
+    font-size: 3em;
+    margin
+  : 10px 0;
+  }
+  
+  .billing-cycle {
+  color: #666;
+  margin-bottom: 20px;
+  }
+  
+  .features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  }
+  
+  .feature-item {
+  border-bottom: 1px solid #eee; /* Light line for each feature */
+  padding: 10px 0;
+  }
+  
+  .plan-select-button {
+  background-color: #007bff; /* Blue color for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+  }
+  
+  .plan-select-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Add additional styles for responsiveness and other states as needed */

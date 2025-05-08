@@ -1,0 +1,249 @@
+.header-container {
+  /* Removed fixed positioning, height, justify-content etc. Handled by inline styles */
+  /* Background, z-index, transition handled by inline styles */
+  /* Height, display, align, justify, padding handled by inline styles */
+}
+
+/* Remove all .logo-container related styles */
+/* .logo-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+} */
+/* .logo-container a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+} */
+/* .logo-container img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+} */
+
+/* Styles for the new floating logo */
+.floating-logo-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    padding: 0;
+    margin: 0;
+    /* Desktop styles - now aligned top-left */
+}
+
+/* Wrapper for hover detection and relative positioning */
+.floating-logo-wrapper {
+    position: relative;
+    display: inline-block; /* Ensure it wraps the link/image */
+}
+
+.floating-logo-container a {
+    display: block;
+}
+
+.floating-logo {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    cursor: pointer;
+    transition: filter 0.2s ease;
+    padding: 0.5rem;
+}
+
+/* Arrow icon style */
+.scroll-top-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem !important; /* Adjust size */
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none; /* Prevent icon from blocking clicks */
+}
+
+/* Show arrow and dim logo slightly on wrapper hover */
+.floating-logo-wrapper:hover .scroll-top-arrow {
+    opacity: 0.8; /* Make arrow visible */
+}
+
+.floating-logo-wrapper:hover .floating-logo {
+    filter: brightness(0.8); /* Optional: dim logo */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links.right {
+  /* Links are pushed right by header's justify-content: flex-end */
+}
+
+.nav-links a,
+.nav-links .nav-button,
+.nav-links .logout-button
+{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Specific style for logout button */
+.logout-button {
+    font-weight: 700; /* Increased font weight */
+    color: white; /* Changed back to white */
+    transition: color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+    display: inline-block; /* Needed for transform */
+}
+
+.logout-button:hover {
+    color: #f0f0f0; /* Slightly off-white on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.auth-button .user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 968px) {
+    /* Hide the desktop header */
+    .header-container {
+        display: none;
+    }
+
+    /* Style the logo container as the mobile top bar */
+    .floating-logo-container {
+        width: 100%;
+        height: 70px;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), transparent);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem 0 0; /* Keep right padding for auth button */
+        box-sizing: border-box;
+    }
+
+    .floating-logo-wrapper {
+        /* Ensure wrapper doesn't add space */
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .floating-logo {
+        height: 65px;
+        padding: 0;
+    }
+
+    .scroll-top-arrow {
+        font-size: 1.8rem !important; /* Keep arrow size */
+    }
+
+    /* Ensure auth button icon is visible */
+    .auth-button .MuiIconButton-root {
+        color: white !important; /* Override potential MUI styles */
+    }
+    .auth-button .user-avatar {
+         border: 1px solid white; /* Optional: add border to avatar */
+    }
+
+    /* Hide desktop nav links (About, Blog) */
+    .nav-links.right li:not(:last-child) {
+        display: none;
+    }
+}
+
+.mobile-menu-container,
+.mobile-menu-drawer,
+.mobile-menu-items {
+  display: none;
+}
+
+.auth-menu {
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  padding: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.desktop-auth-menu {
+  top: 70px;
+  right: 2rem;
+  width: 200px;
+  border-radius: 8px;
+  transform: translateY(-10px);
+}
+
+.mobile-auth-menu {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 250px;
+  transform: translateX(100%);
+  border-radius: 0;
+}
+
+.auth-menu.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobile-auth-menu.open {
+  transform: translateX(0);
+}
+
+.close-menu-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.auth-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.auth-items li {
+}
+
+.auth-items button {
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}

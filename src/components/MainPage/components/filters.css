@@ -1,0 +1,135 @@
+/* filters.css */
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.filter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-item {
+  flex: 1; /* Equal width for each filter item */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3f7cac;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-item:first-child {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.filter-item:last-child {
+  margin-left: 0px;
+  padding-left: 0px;
+  border: none;
+  box-shadow: none;
+}
+
+.filter-item .select__control {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filter-item .select__control:hover {
+  border-color: #59cbe8;
+}
+
+.filter-item .select__control:focus {
+  border-color: #007cb2;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 178, 0.25);
+  outline: none;
+}
+
+.filter-item .select__menu {
+  z-index: 2;
+}
+
+.slider-container {
+  display: flex;
+  border: 0px;
+  box-shadow: none;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.slider-content {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-labels {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slider {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.MuiSlider-root {
+  padding: 0 !important;
+  margin: 0 -22px !important;
+  width: calc(100% + 44px) !important;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1350px) {
+  .filter-row {
+    flex-direction: column;
+    margin: -10px 0px 0px 0px;
+  }
+  
+  .filters-container {
+    padding: 0px 20px 0px 20px;
+  }
+  
+  .filter-item {
+    width: 100%; /* Ensures full width on smaller screens */
+    margin: 10px 0;
+  }
+  
+  .filter-item:first-child {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+  }
+  
+  .MuiSlider-root {
+    padding: 0 !important;
+    margin: 0 -72px !important;
+    width: calc(100% + 144px) !important;
+  }
+  
+  .slider {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  /* New styles for white text in mobile view */
+  .slider-label.range-title,
+  .slider-labels {
+    color: white;
+  }
+}

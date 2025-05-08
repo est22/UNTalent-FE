@@ -1,0 +1,403 @@
+﻿{
+    "English": [
+        "English",
+        "Ingles",
+        "inglés",
+        "Anglais"
+    ],
+    "German": [
+        "German",
+        "Deutsch",
+        "Allemand"
+    ],
+    "Spanish": [
+        "spanish",
+        "espagnol",
+        "espanol",
+        "español",
+        "Spanish",
+        "Español"
+    ],
+    "French": [
+        "French",
+        "Francés",
+        "français"
+    ],
+    "Danish": [
+        "Danish",
+        "Dansk"
+    ],
+    "Arabic": [
+        "Arabic",
+        "Arabe"
+    ],
+    "Chinese": [
+        "Chinese",
+        "Mandarin"
+    ],
+    "Dutch": [
+        "Dutch",
+        "Nederlands"
+    ],
+    "Dari": [
+        "Dari"
+    ],
+    "Finnish": [
+        "Finnish",
+        "Suomi" 
+    ],
+    "Gagauzian": [
+        "Gagauzian"
+    ],
+    "Greek": [
+        "Greek",
+        "Ellinika"
+    ],
+    "Hebrew": [
+        "Hebrew",
+        "Ivrit"
+    ],
+    "Hindi": [
+        "Hindi"
+    ],
+    "Hungarian": [
+        "Hungarian",
+        "Magyar"
+    ],
+    "Indonesian": [
+        "Indonesian",
+        "Bahasa Indonesia"
+    ],
+    "Italian": [
+        "Italian",
+        "Italiano"
+    ],
+    "Japanese": [
+        "Japanese",
+        "Nihongo"
+    ],
+    "Korean": [
+        "Korean",
+        "Hangugeo"
+    ],
+    "Persian": [
+        "Farsi",
+        "Persian",
+        "فارسی"
+    ],
+    "Russian": [
+        "Russkiy",
+        "Russian",
+        "русский"
+    ],
+    "Afrikaans": [
+        "Afrikaans"
+    ],
+    "Albanian": [
+        "Albanian",
+        "Shqip"
+    ],
+    "Amharic": [
+        "Amharic"
+    ],
+    "Armenian": [
+        "Armenian",
+        "Hayeren"
+    ],
+    "Azerbaijani": [
+        "Azerbaijani",
+        "Azərbaycanca"
+    ],
+    "Basque": [
+        "Basque",
+        "Euskara"
+    ],
+    "Belarusian": [
+        "Belarusian",
+        "Belaruska"
+    ],
+    "Bengali": [
+        "Bengali"
+    ],
+    "Bosnian": [
+        "Bosnian",
+        "Bosanski"
+    ],
+    "Bulgarian": [
+        "Bulgarian",
+        "Bǎlgarski"
+    ],
+    "Burmese": [
+        "Burmese",
+        "Myanmarsar"
+    ],
+    "Catalan": [
+        "Catalan",
+        "Català"
+    ],
+    "Cebuano": [
+        "Cebuano",
+        "Sinugbuanon"
+    ],
+    "Chichewa": [
+        "Chichewa",
+        "Nyanja"
+    ],
+    "Corsican": [
+        "Corsican",
+        "Corsu"
+    ],
+    "Croatian": [
+        "Croatian",
+        "Hrvatski"
+    ],
+    "Czech": [
+        "Czech",
+        "Čeština"
+    ],
+    "Esperanto": [
+        "Esperanto"
+    ],
+    "Estonian": [
+        "Estonian",
+        "Eesti"
+    ],
+    "Filipino": [
+        "Filipino",
+        "Tagalog"
+    ],
+    "Galician": [
+        "Galician",
+        "Galego"
+    ],
+    "Georgian": [
+        "Georgian",
+        "Kartuli"
+    ],
+    "Gujarati": [
+        "Gujarati"
+    ],
+    "Haitian Creole": [
+        "Haitian Creole",
+        "Kreyòl Ayisyen"
+    ],
+    "Hausa": [
+        "Hausa"
+    ],
+    "Hawaiian": [
+        "Hawaiian",
+        "ʻŌlelo Hawaiʻi"
+    ],
+    "Icelandic": [
+        "Icelandic",
+        "Íslenska"
+    ],
+    "Igbo": [
+        "Igbo"
+    ],
+    "Irish": [
+        "Irish",
+        "Gaeilge"
+    ],
+    "Javanese": [
+        "Javanese",
+        "Basa Jawa"
+    ],
+    "Kannada": [
+        "Kannada"
+    ],
+    "Kazakh": [
+        "Kazakh",
+        "Qazaqşa"
+    ],
+    "Khmer": [
+        "Khmer"
+    ],
+    "Kurdish": [
+        "Kurdish",
+        "Kurdî"
+    ],
+    "Kyrgyz": [
+        "Kyrgyz",
+        "Кыргызча"
+    ],
+    "Lao": [
+        "Lao",
+        "ພາສາລາວ"
+    ],
+    "Latin": [
+        "Latin",
+        "Latina"
+    ],
+    "Latvian": [
+        "Latvian",
+        "Latviešu"
+    ],
+    "Lithuanian": [
+        "Lithuanian",
+        "Lietuvių"
+    ],
+    "Luxembourgish": [
+        "Luxembourgish",
+        "Lëtzebuergesch"
+    ],
+    "Macedonian": [
+        "Macedonian",
+        "Македонски"
+    ],
+    "Malagasy": [
+        "Malagasy"
+    ],
+    "Malay": [
+        "Malay",
+        "Bahasa Melayu"
+    ],
+    "Malayalam": [
+        "Malayalam"
+    ],
+    "Maltese": [
+        "Maltese",
+        "Malti"
+    ],
+    "Maori": [
+        "Maori",
+        "Te Reo Māori"
+    ],
+    "Marathi": [
+        "Marathi"
+    ],
+    "Mongolian": [
+        "Mongolian",
+        "Монгол"
+    ],
+    "Myanmar (Burmese)": [
+        "Myanmar (Burmese)",
+        "ဗမာ"
+    ],
+    "Nepali": [
+        "Nepali",
+        "नेपाली"
+    ],
+    "Norwegian": [
+        "Norwegian",
+        "Norsk"
+    ],
+    "Pashto": [
+        "Pashto",
+        "پښتو"
+    ],
+    "Polish": [
+        "Polish",
+        "Polski"
+    ],
+    "Portuguese": [
+        "Portuguese",
+        "Português"
+    ],
+    "Punjabi": [
+        "Punjabi",
+        "ਪੰਜਾਬੀ"
+    ],
+    "Romanian": [
+        "Romanian",
+        "Română"
+    ],
+    "Samoan": [
+        "Samoan",
+        "Gagana Sāmoa"
+    ],
+    "Scots Gaelic": [
+        "Scots Gaelic",
+        "Gàidhlig"
+    ],
+    "Serbian": [
+        "Serbian",
+        "српски"
+    ],
+    "Sesotho": [
+        "Sesotho"
+    ],
+    "Sindhi": [
+        "Sindhi",
+        "سنڌي"
+    ],
+    "Sinhala": [
+        "Sinhala",
+        "සිංහල"
+    ],
+    "Slovak": [
+        "Slovak",
+        "Slovenčina"
+    ],
+    "Slovenian": [
+        "Slovenian",
+        "Slovenščina"
+    ],
+    "Somali": [
+        "Somali",
+        "Af-Soomaali"
+    ],
+    "Sundanese": [
+        "Sundanese",
+        "Basa Sunda"
+    ],
+    "Swahili": [
+        "Swahili",
+        "Kiswahili"
+    ],
+    "Swedish": [
+        "Swedish",
+        "Svenska"
+    ],
+    "Tajik": [
+        "Tajik",
+        "тоҷикӣ"
+    ],
+    "Tamil": [
+        "Tamil",
+        "தமிழ்"
+    ],
+    "Telugu": [
+        "Telugu",
+        "తెలుగు"
+    ],
+    "Thai": [
+        "Thai",
+        "ไทย"
+    ],
+    "Tok Pisin": [
+        "Tok Pisin"
+    ],
+    "Turkish": [
+        "Turkish",
+        "Türkçe"
+    ],
+    "Ukrainian": [
+        "Ukrainian",
+        "українська"
+    ],
+    "Urdu": [
+        "Urdu",
+        "اردو"
+    ],
+    "Uzbek": [
+        "Uzbek",
+        "Oʻzbek"
+    ],
+    "Vietnamese": [
+        "Vietnamese",
+        "Tiếng Việt"
+    ],
+    "Sign Language": [
+        "Sign Language",
+        "Sign-language"
+    ],
+    "Welsh": [
+        "Welsh",
+        "Cymraeg"
+    ],
+    "Xhosa": [
+        "Xhosa",
+        "isiXhosa"
+    ]
+}

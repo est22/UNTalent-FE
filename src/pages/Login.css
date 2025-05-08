@@ -1,0 +1,53 @@
+/* LoginPage.css */
+.login-background {
+  min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%);
+}
+
+.login-paper {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.login-icon-wrapper {
+  background-color: #1a2980;
+  border-radius: 50%;
+  padding: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-page-button {
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+  height: 48px;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  border-radius: 8px !important;
+  background: linear-gradient(to right, #1a2980, #26d0ce) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.login-page-button:hover {
+  background: linear-gradient(to right, #15216b, #1fb5b3) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.login-title {
+  margin-bottom: 24px !important;
+  color: #1a2980 !important;
+  font-weight: 600 !important;
+}
